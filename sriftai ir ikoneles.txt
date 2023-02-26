@@ -1,0 +1,67 @@
+Javascript
+
+<script src="https://kit.fontawesome.com/a7bc45ab22.js" crossorigin="anonymous"></script>
+
+
+
+CSS
+<link rel="stylesheet" href="https://kit.fontawesome.com/a7bc45ab22.css" crossorigin="anonymous">
+
+
+fonts.google:
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+</style>
+
+
+
+
+
+font-family: 'Poppins', sans-serif;
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+     display: inline-block;
+      list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+}
+
+.container{
+    margin: 70px;
+    padding: 0 75px;
+}
+.hero{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+
+
+
