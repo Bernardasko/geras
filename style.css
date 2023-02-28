@@ -1,28 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after{
     box-sizing: border-box;
 }
+html {
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+}
+body{
+  margin: 0;
+}
 
-h2{
-    color: #40A2D5;
-    font-weight: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
+.site-header{
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 75px;
-    margin: 35px;
+
+.flex-container{
+  display: flex;
 }
-  nav ul{
-    display: flex;
-    align-items: center;
-                
+
+.site-header .flex-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav li{
+  list-style: none;
+}
+
+.main-nav a{
+  color:blue;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0 25px;
+  padding: 10px 17px;
   }
+
+  .main-nav{
+    background-image: url(images/Mask\ Group.png);
+  }
+  .logo{
+    color: #40A2D5;
+    text-transform: uppercase; 
+    font-size: 1.2rem; 
+    letter-spacing: -0.06em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+section {
+  padding: 90px 25px;
+}
+
+h1{
+  color: #313131;
+  font-size: 3rem;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.color{
+  color: #40A2D5;
+}
+p {
+  color: #6B6B6B;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
