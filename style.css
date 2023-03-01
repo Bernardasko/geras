@@ -4,6 +4,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    
 }
 html {
    font-family: 'Poppins', sans-serif;
@@ -11,21 +12,28 @@ html {
 }
 body{
   margin: 0;
+  padding: 0;
 }
 
 .site-header{
   background-color: #fff;
-  margin: 0 auto;
-  padding: 0 20px;
+  background-image: url(images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin: 111px 64px 78px;
+  height: 850px;
+  
 }
 
 .flex-container{
   display: flex;
 }
 
-.site-header .flex-container {
+ .flex-container {
   align-items: center;
   justify-content: space-between;
+  margin: -35px 0px; 
+  padding-right: 50px;
 }
 
 .main-nav li{
@@ -33,16 +41,20 @@ body{
 }
 
 .main-nav a{
-  color:blue;
+  color:#fff;
   font-size: 1rem;
   text-decoration: none;
-  margin: 0 25px;
-  padding: 10px 17px;
+  padding: 16px 
+  
   }
 
-  .main-nav{
-    background-image: url(images/Mask\ Group.png);
+  .hero-heading{
+    margin: 
   }
+    
+
+    
+  
   .logo{
     color: #40A2D5;
     text-transform: uppercase; 
@@ -50,9 +62,6 @@ body{
     letter-spacing: -0.06em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
-section {
-  padding: 90px 25px;
-}
 
 h1{
   color: #313131;
