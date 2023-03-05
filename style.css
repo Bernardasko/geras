@@ -20,16 +20,13 @@ body{
   background-image: url(images/Mask\ Group.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  margin: 111px 64px 78px;
-  height: 850px;
+  margin: 89px 95px 78px;
+  height: 933px;
   
 }
 
-.flex-container{
-  display: flex;
-}
-
  .flex-container {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   margin: -35px 0px; 
@@ -44,28 +41,20 @@ body{
   color:#fff;
   font-size: 1rem;
   text-decoration: none;
-  padding: 16px 
-  
-  }
-
-  .hero-heading{
-    margin: 
-  }
+  padding: 16px;
+}
     
-
-    
-  
-  .logo{
+.logo{
     color: #40A2D5;
     text-transform: uppercase; 
     font-size: 1.2rem; 
     letter-spacing: -0.06em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
+}
 
-h1{
+.Masters{
   color: #313131;
-  font-size: 3rem;
+  font-size: 4.1rem;
   letter-spacing: -0.04em;
   line-height: 1.2;
   font-weight: 700;
@@ -73,13 +62,174 @@ h1{
 .color{
   color: #40A2D5;
 }
-p {
+.hero-text {
   color: #6B6B6B;
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  margin-bottom: 40px;
+}
+ button {
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px 5px;
+  height: 60px;
+  width: 210px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  cursor: pointer;
 }
 
+input {
+height: 455px;
+margin-bottom: 25px;
+padding: 24px;
+}
+
+
+.btn2{
+  margin-left: 30px;
+  border: 1px solid #40A2D5;
+  color: #40A2D5;
+}
+.btn1{
+ background-color: #40A2D5;
+ color: #fff;
+ filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) ;
+}
+
+.stats{
+  display:flex;
+  margin: 50px 0;
+}
+.stats1{
+  padding-right: 20px;
+}
+.logo1{
+  color: #313131;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px
+}
+.logo2 {
+color: #6B6B6B;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rotation{
+background-image: url(images/Ellipse\ 739.png);
+background-repeat: no-repeat;
+background-position: top 16px left 1px;
+}
+
+.rotation2{
+  background-image: url(images/Ellipse\ 740.png);
+  background-repeat: no-repeat;
+  background-position: top 16px left 1px;
+  }
+.rotation3{
+  background-image: url(images/Ellipse\ 741.png);
+  background-repeat: no-repeat;
+  background-position: top 16px left 1px;
+  }
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 150px;
+  background-color: #FAFAFA;
+  width: 1400px;
+  margin: auto;
+  height: 180px;
+  }
+
+
+.group592{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B6B6B;
+  align-self: center;
+  }
+ .section-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 200px;
+ }
+ .style-choose{
+  color: #313131;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 120%;
+ }
+ .style-button {
+  background-color: #40A2D5;
+  color: #fff;
+  cursor: pointer;
+ }
+
+ .section-heading1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 900px;
+  padding-left: 100px;
+  padding-right: 400px;
+ }
+ .hero2{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  }
+
+ .heros1, .heros2, .heros3 {
+  display: flex;
+  align-items: center;
+  
+ }
+ .text1 {
+font-style: normal;
+ font-weight: 400;
+ font-size: 25px;
+ line-height: 35px;
+ color: #6B6B6B;
+ padding-left: 25px;
+ }
+ .text2{
+ font-style: normal;
+ font-weight: 600;
+ font-size: 82px;
+ padding: 0 35px;
+ margin: 0 0 80px;
+ }
+  .lemon{
+    background-image: url(images/Rectangle\ 4304.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .lemon1{
+    background-image: url(images/Rectangle\ 4305.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .lemon2{
+    background-image: url(images/Rectangle\ 4306.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+ 
+ 
 
