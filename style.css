@@ -184,7 +184,7 @@ background-position: top 16px left 1px;
   justify-content: space-between;
   height: 900px;
   padding-left: 100px;
-  padding-right: 400px;
+  padding-right: 220px;
  }
  .hero2{
  display: flex;
@@ -229,7 +229,79 @@ font-style: normal;
     background-repeat: no-repeat;
     background-position: bottom left;
   }
+  .blessing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px auto;
+  }
 
+  .Our{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 10px;
+  color: #313131;
+  }
+
+  .Our1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #6B6B6B
+  }
+  .enginners{
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px 25px;
+  }
+  .enginners, .bars1{
+    display: flex;
+  }
+  .bars{
+    width: 400px;
+    box-shadow: 0px 0px 24px 5px rgba(162, 233, 239, 0.35);;
+    padding: 25px;
+    text-align: center;
+  }
+  .bars1{
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .fa-solid {
+    font-size: 30px;
+  }
+
+  .fa-star{
+    color: #F0BB00;
+  }
+  .names{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #313131;
+    margin-bottom: 12px;
+  }
+
+  .city{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #6B6B6B;
+  }
+  .phone{ 
+    padding: 45px;
+  }
  
+  a {
+    text-decoration: none;
+  }
  
 
