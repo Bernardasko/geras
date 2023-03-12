@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <header class="site-header" onclick="changepicture()">
         <div class="flex-container">
             <div class="logo">
                 <h2>Construction</h2>
@@ -104,7 +104,7 @@
             <div class="bars">
                 <div class="bars1">
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
                 </div>
                 <div class="enginers1">
                     <img src="images/Ellipse 752.png" alt="engineers1">
@@ -226,9 +226,9 @@
                 <h1 class="logo5">CONSTRUCTION</h1>
                 <p class="color2">You'll find your next Home<br> loan valu you prefer.</p>
                 <div class="foter2"> 
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
             <div class="color2">
@@ -248,9 +248,8 @@
             <div>
                 <h1 class="logo6">Get in touch</h1>
                 <div class="buttonin">
-                    <input class="enter" type="email" placeholder="Enter your mail">
-                    <button class="button9"><i class="fa-solid fa-circle-arrow-right"></i></button>
-            
+                    <input class="enter" type="email" name="email" placeholder="Enter your mail">
+                    <button class="button9" name="submit" type="submit"><i class="fa-solid fa-circle-arrow-right"></i></button>
                 </div>                
             </div>
         </div>
@@ -258,6 +257,8 @@
         <p class="logo7">Copyright construction.com, All rights reserved.</p>
         </footer>
     </section>
+
+    <script src="script.js" defer></script>
 </body>
 
 </html>
