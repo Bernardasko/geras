@@ -459,7 +459,6 @@ textarea {
   background-image: url(images/Img-2.png);
   background-repeat: no-repeat;
   padding: 70px;
-  margin: 70px
   color: #FAFAFA;
  }
 
@@ -616,6 +615,7 @@ hr {
   color: #40A2D5;
 }
 
+
  @media screen and (min-width: 1200px){
   /* desktop */
  }
@@ -631,11 +631,7 @@ hr {
     width: 490px;
 }
 
-.section-heading1{
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  }
+
 
   .logos1{
     width: 90%;
@@ -649,25 +645,32 @@ hr {
 
  }
  @media screen and (max-width: 767px) {
-.logo {
-  font-size: 10px;
-}
 
-.flex-container a{
-  font-size: px;
-  color:yellow;
-}
+  .site-header{
+    font-size: auto;
+  }
+  .Masters{
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .style-choose{
+    font-size: 30px;
+  }
+
 .box{
   display: block;
   margin: 0;
   padding: 0;
   
 }
-.enginners, .foter, .picture, .section-heading1{
+.enginners, .foter, .picture, .section-heading1 {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 10px;
   }
+
+  
 
 .btn6{
   margin: 0 170px;
@@ -691,8 +694,18 @@ width: 90%;
 }
 
 .input1, textarea{
-width: 490px;
+width: 450px;
 }
+.section-heading1{
+  height: auto;
+  font-size: 10px;
+}
+
+.foter{
+  display: flex;
+  justify-content: center;
+}
+
 
 }
 
