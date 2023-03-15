@@ -396,6 +396,7 @@ a {
 
 /* ---CONTACT----- */
 
+
 .input1,  textarea{
   margin: 23px 60px;
   padding: 12px 20px;
@@ -432,6 +433,8 @@ textarea {
 .btn23{
   margin: 0 50px;
 }
+
+/* -- LATTEST BLOG -- */
 
 .box4{
   background-image: url(images/Group\ 597.png);
@@ -606,6 +609,9 @@ hr {
   background-color: #F9F9F9;
 }
 
+.button9:hover{
+  background-color: #F9F9F9;
+}
 .fa-circle-arrow-right{
   color: #40A2D5;
 }
@@ -618,9 +624,30 @@ hr {
 
  @media screen and (min-width:768px) and (max-width: 1023px){
 /* Tablet */
-
+  .btn6{
+    margin-left: 240px;
+  }
+  .input1, textarea{
+    width: 490px;
 }
 
+.section-heading1{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  }
+
+  .logos1{
+    width: 90%;
+    }
+    
+    .logos{
+      margin: 20px;
+      padding: 0;
+      width: auto;
+    }
+
+ }
  @media screen and (max-width: 767px) {
 .logo {
   font-size: 10px;
